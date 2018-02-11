@@ -8,9 +8,9 @@
 ! you can find the keycodes using the 'xev' command.
 
 
-! switch keys: capslock (66), numbersign (51)
+! switch keys: capslock (66), numbersign (51), minus (61), ctrl-right (105), altgr (108)
 keycode 66 = Mode_switch NoSymbol
-keycode 51 = Mode_switch NoSymbol
+keycode 105 = Mode_switch NoSymbol
 
 ! upper row
 keycode 24 = q Q ellipsis ellipsis at
@@ -41,7 +41,7 @@ keycode 47 = odiaeresis Odiaeresis colon colon
 keycode 48 = adiaeresis Adiaeresis at at
 
 ! bottom row
-keycode 52 = y Y numbersign numbersign 
+keycode 52 = y Y numbersign numbersign
 ! keycode 52 = z Z numbersign numbersign
 keycode 53 = x X dollar dollar
 keycode 54 = c C bar bar
